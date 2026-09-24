@@ -1,0 +1,8 @@
+title: Laura Crawford
+description: Writing, projects and resources related to research and digital infrastructure.
+url: "https://lcrawfo.github.io"
+baseurl: ""
+theme: minima
+header_pages:
+  - about.md
+  - blog/index.md
