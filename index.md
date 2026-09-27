@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Home
+layout: default
+title: Laura Crawford
 ---
 
 # Laura Crawford

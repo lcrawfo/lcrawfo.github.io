@@ -4,7 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-# Blog
 
 {% if site.posts.size > 0 %}
 {% for post in site.posts %}
