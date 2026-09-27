@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About
 
 I'm Laura Crawford. I work across digital research infrastructure, data and research practice. This site brings together my writing, projects and other work as it develops.
 

@@ -1,0 +1,82 @@
+---
+---
+@import "minima";
+
+/* Quiet circuit-board detail around a solid reading surface. */
+:root {
+  --ink: #163245;
+  --navy: #10384b;
+  --teal: #006c78;
+  --turquoise: #a7e6e2;
+  --line: #b8d7dc;
+}
+
+body {
+  color: var(--ink);
+  background: #eaf4f6 url("{{ '/assets/images/circuit-board.svg' | relative_url }}") repeat;
+  background-size: 320px 320px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.site-header {
+  background: var(--navy);
+  border-top: 5px solid #40b4b6;
+  border-bottom: 0;
+  box-shadow: 0 3px 14px rgba(14, 48, 65, .14);
+}
+.site-header .site-title,
+.site-header .site-title:visited,
+.site-header .page-link {
+  color: #fff;
+}
+.site-header .site-title { font-weight: 700; letter-spacing: .01em; }
+.site-header .page-link:hover,
+.site-header .site-title:hover { color: var(--turquoise); }
+.site-header .page-link { font-weight: 600; }
+
+.page-content { padding: 48px 0 60px; }
+.page-content > .wrapper {
+  box-sizing: border-box;
+  max-width: 880px;
+  padding: clamp(28px, 6vw, 64px);
+  background: #fff;
+  border: 1px solid #c8dfe2;
+  border-top: 5px solid #078996;
+  border-radius: 8px;
+  box-shadow: 0 16px 42px rgba(17, 62, 78, .12);
+}
+
+h1, h2, h3, h4, .page-heading, .post-title { color: var(--navy); }
+h1, .page-heading, .post-title { line-height: 1.2; letter-spacing: -.025em; }
+h2 { margin-top: 1.8em; }
+a, a:visited { color: var(--teal); text-underline-offset: .16em; }
+a:hover { color: #004b56; }
+a:focus-visible, button:focus-visible, .site-nav label:focus-visible {
+  outline: 3px solid #078996;
+  outline-offset: 3px;
+}
+blockquote { border-left-color: #078996; color: #334f5e; }
+pre, code { background: #f1f7f8; border-color: #c8dfe2; }
+pre { overflow-x: auto; }
+
+.site-footer {
+  background: var(--navy);
+  border-top: 4px solid #40b4b6;
+  color: #e1f0f2;
+}
+.site-footer .footer-col-wrapper,
+.site-footer .footer-heading,
+.site-footer .contact-list,
+.site-footer .social-media-list,
+.site-footer .contact-list a,
+.site-footer .social-media-list a { color: #e1f0f2; }
+.site-footer a, .site-footer a:visited { color: #a7e6e2; }
+
+@media screen and (max-width: 600px) {
+  .page-content { padding: 22px 12px 36px; }
+  .page-content > .wrapper { padding: 24px; }
+  .site-header .site-nav { background: #fff; border-color: #87b9c0; }
+  .site-header .site-nav .page-link { color: var(--navy); }
+  .site-header .site-nav .page-link:hover { color: var(--teal); }
+}
