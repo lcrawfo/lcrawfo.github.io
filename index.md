@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Laura Crawford
+title: Research, data and digital infrastructure
 ---
 
-# Laura Crawford
+# Research, data and digital infrastructure
 
-Welcome to my website. This is a place for writing, projects and resources related to my work and interests.
+Thoughts on research software, infrastructure and the policies that shape how we use them.
 
 Explore the [blog]({{ '/blog/' | relative_url }}) or [read more about me]({{ '/about/' | relative_url }}).
